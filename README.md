@@ -1,2 +1,8 @@
-# hear-leaderboard
-Leaderboard scripts for the HEAR benchmark, using TSP and imputation
+hear-leaderboard
+================
+
+```
+pip install adjustText py2opt
+wget -O leaderboard.csv https://raw.githubusercontent.com/hearbenchmark/hear-benchmark/main/docs/leaderboard.csv
+
+```
