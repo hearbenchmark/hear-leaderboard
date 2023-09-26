@@ -44,7 +44,7 @@ os.system(
     "wget -O leaderboard.csv https://raw.githubusercontent.com/hearbenchmark/hear-benchmark/main/docs/leaderboard.csv"
 )
 df_new = pd.read_csv("leaderboard.csv")
-df = df_new.set_index("Model").drop(columns=["URL"])
+df = df_new.set_index("Model").drop(columns=["URL", "Submission Date"])
 df
 
 """## Impute values for dimensionality reduction"""
