@@ -24,5 +24,5 @@ are displayed.
 Cells are sorted to minimize the traveling salesperson distance.
 
 ```
-pip install adjustText py2opt
+pip install py2opt
 ```
